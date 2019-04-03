@@ -28,11 +28,8 @@ Needs: Ruby
 
 ## Deploy
 
-
 1. Push changes to master
-2. There's no `3`
-
-Deployment is done automatically by [GitHub pages](https://pages.github.com/). You don't need to do anything else than pushing to master.
+2. `jekyll build` on the server folder
 
 # Use for your organization
 
