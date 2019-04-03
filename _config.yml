@@ -2,17 +2,17 @@
 
 # PERSONALIZATION
 # Site variables
-name: Hackers@UPC
+name: KTHAIS
 # og: assets/img/og.png
 logo: /assets/img/logo.png
-original_repo: https://github.com/hackupc/hackersatupc.org
-description: Hackers@UPC community and events page
-ga: UA-109223481-1
-domain: hackersatupc.org
+original_repo: https://github.com/kthackais/kthais.com
+description: KTHAIS community and events page
+ga: UA-137575645-2
+domain: kthais.com
 
 
 # Style variables
-accent_color: "#303AB2"
+accent_color: "#68a4cc"
 events_overlay_color: "#000000"
 background_color: "#FAFAFA"
 footer_text_color: "#666666"
@@ -38,28 +38,25 @@ footer_text_color: "#666666"
 # END WINTER THEME
 
 # Author variables
-author: Hackers@UPC
-author-description: "Hackers@UPC is a non-profit student organization at Universitat Politècnica de Catalunya. 
-We organize events during the year, nationally and internationally, to promote science and technology among 
-students and create a great community in the technological world. Our mission is to foster learning, designing, 
-and building in order to turn student's ideas into a reality! "
-email: contact@hackersatupc.org
+author: KTHAIS
+author-description: "KTHAIS wants to spread knowledge about the latest research within artificial intelligence and to contribute to an active AI-community, wherein students can increase their knowledge of the industry and find job opportunities, at KTH Royal Institute of Technology. We organise speeches and events with experts within the field, educational events, facilitate discussion, and provide resources to hasten their personal and professional development."
+email: contact@kthais.com
 
 # Social media + community variables
-twitter: hackersupc
-fb: hackersupc
-fb-community: hackersatupc
-slack: http://slack.hackersatupc.org
-telegram: http://telegram.hackersatupc.org
+# twitter: kthais
+fb: KTHAISociety
+# fb-community: kthais
+# slack: http://slack.kthais.com
+# telegram: http://telegram.kthais.com
 
-# instagram: hackcu
-github-org: hackupc
+# instagram: kthais
+github-org: kthackais
 
 
 
 # TIMEZONE
 # Needs to be string from: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Europe/Madrid
+timezone: Europe/Stockholm
 # Based on: http://erics-notes.blogspot.com/2013/05/fixing-ics-time-zone.html
 ical_timezone: |-
   BEGIN:DAYLIGHT

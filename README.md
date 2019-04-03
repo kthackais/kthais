@@ -1,11 +1,11 @@
 <br>
 <p align="center">
-  <img alt="Hackers@UPC" src="assets/img/logo.png" width="500"/>
+  <img alt="KTHAIS" src="assets/img/logo.png" width="500"/>
 </p>
 <br>
 
 
-Hackers@UPC website, forked from [Events Landing](https://github.com/casassg/events-landing)
+KTHAIS website, forked from [Events Landing](https://github.com/hackupc/events-landing)
 
 # Features
 
@@ -21,7 +21,7 @@ Needs: Ruby
 
 ## Local 
 
-1. Clone repository to your computer with `git clone https://github.com/hackupc/hackersatupc.org`
+1. Clone repository to your computer with `git clone https://github.com/kthackais/kthais.com`
 2. `cd` into your repository
 3. `gem install jekyll`
 4. `jekyll serve --watch`
@@ -73,9 +73,6 @@ You can change various strings across the site, including the title of your app 
 
 Main colors can be changed on [_config.yml](_config.yml). For more "deep" styling, you can edit all styling in [assets/css/main.scss](assets/css/main.scss)
 
-
-
 # License
 
-
-MIT © Hackers at UPC
+MIT © KTH Artificial Intelligence Society

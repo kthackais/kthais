@@ -120,11 +120,15 @@ section.social-media {
 
 header {
     padding-top: 4em;
-    padding-bottom: 4em;
-    min-height: 80%;
+    //padding-bottom: 4em;
+    padding-bottom: 3em;
+    //min-height: 80%;
 
     img.logo {
         width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
         
     }
 
@@ -134,16 +138,21 @@ header {
     }
 
      div.panel {
-        @include box-shadow(1px 5px 8px 1px rgba(0,0,0,.19));
+        //@include box-shadow(1px 5px 8px 1px rgba(0,0,0,.19));
         @include border-radius(0);
         .panel-body {
             border: 1px $accent-color;
-            padding: 10px;
+            padding: 10px 20px;
         }
 
         p{
             font-size: 14px;
         }
+    }
+
+    p.lead {
+        font-size: 18px;
+        text-align: center;
     }
 
 
@@ -208,8 +217,7 @@ footer {
 }
 
 section {
-    padding-bottom: 20px;
-    padding-top: 2em;
+    padding: 2em 0;
 }
 
 
@@ -224,21 +232,21 @@ section.events{
     div.panel {
         @include box-shadow(1px 5px 8px 1px rgba(0,0,0,.19));
         @include border-radius(0);
-        height: 170px;
+        height: 275px;
         position: relative;
         top: 0;
         @include transition(all .1s linear);
         border: 0;
         .panel-body {
             padding: 10px;
-            height: 70px;
+            height: 100px;
             font-size: 14px;
             @include border-radius(0);
             overflow: auto;
 
             p {
                 overflow: auto;
-                 height: 40px;
+                 height: 100px;
                  margin: 0;
             }
 
@@ -260,7 +268,7 @@ section.events{
 
         .panel-heading {
             padding: 0;
-            height: 70px;
+            height: 150px;
             background-color: darken($accent-color,5%);
             @include border-radius(0);
 
@@ -268,7 +276,7 @@ section.events{
             img {
                 position: relative; 
                 object-fit: cover;
-                height: 70px;
+                height: 150px;
                 width: 100%;
                 filter: brightness(60%) grayscale(20%);
                 &.light_background {

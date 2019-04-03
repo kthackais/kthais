@@ -14,7 +14,7 @@ END:VTIMEZONE{% assign sorted = site.data.events | sort: 'date','last' %}
 DTSTART;TZID={{site.timezone}}:{{ post.date | date: "%Y%m%dT%H%M%S" }}
 DTEND;TZID={{site.timezone}}:{{ post.end-date | date: "%Y%m%dT%H%M%S" }}
 DTSTAMP;TZID={{site.timezone}}:{{ post.date | date: "%Y%m%dT%H%M%S" }}
-UID:events-{{ post.date | date: "%Y%m%d-%H%M" }}@hackcu.org
+UID:events-{{ post.date | date: "%Y%m%d-%H%M" }}@kthais.com
 LOCATION:{{ post.location }}
 URL:{{post.url}}
 DESCRIPTION:{{post.line}}\n URL: {{post.url}}
