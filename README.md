@@ -4,7 +4,6 @@
   <br>
   KTHAIS website, forked from <a href="https://github.com/hackupc/events-landing">Events Landing</a>
 </p>
-<br>
 
 # Features
 
