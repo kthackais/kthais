@@ -1,9 +1,6 @@
-<br>
 <p align="center">
-  <img alt="KTHAIS" src="assets/img/logo.png" width="500"/>
+  <img alt="KTHAIS" src="assets/img/logo.png" width="250px"/>
 </p>
-<br>
-
 
 KTHAIS website, forked from [Events Landing](https://github.com/hackupc/events-landing)
 
