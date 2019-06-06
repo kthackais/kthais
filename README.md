@@ -1,13 +1,9 @@
-<br>
 <p align="center">
-  <img alt="KTHAIS" src="assets/img/logo.png" width="500"/>
+  <img alt="KTHAIS" src="assets/img/logo.png" width="250px"/>
 </p>
-<br>
+<h1 align="center">KTHAIS webpage</h1>
 
-
-KTHAIS website, forked from [Events Landing](https://github.com/hackupc/events-landing)
-
-# Features
+## Features
 
 - Automatically updated webcalendar (ICS format) 
 - Add/Remove events
@@ -15,31 +11,31 @@ KTHAIS website, forked from [Events Landing](https://github.com/hackupc/events-l
 - Easy footer and header customization
 
 
-# Run project
+## Run project
 
 Needs: Ruby
 
-## Local 
+### Local 
 
 1. Clone repository to your computer with `git clone https://github.com/kthackais/kthais.com`
 2. `cd` into your repository
 3. `gem install jekyll`
 4. `jekyll serve --watch`
 
-## Deploy
+### Deploy
 
 1. Push changes to master
 2. `jekyll build` on the server folder
 
-# Use for your organization
+## Use for your organization
 
 1. Fork this repository
 2. Activate Github pages for your new repo
 3. Personalize
 
-# Personalization
+## Personalization
 
-## Add an event
+### Add an event
 
 1. Go to [_data/events.yml](_data/events.yml)
 2. Copy and paste the following text
@@ -58,11 +54,11 @@ Needs: Ruby
 
 If you need a preview image please add it to [assets/img/](assets/img/). 
 
-## Add/change footer links
+### Add/change footer links
 
 You can change footer links by editing the file  [_data/footer_links.yml](_data/footer_links.yml)
 
-## Global variables
+### Global variables
 
 You can change various strings across the site, including the title of your app on [_config.yml](_config.yml)
 
@@ -70,6 +66,6 @@ You can change various strings across the site, including the title of your app 
 
 Main colors can be changed on [_config.yml](_config.yml). For more "deep" styling, you can edit all styling in [assets/css/main.scss](assets/css/main.scss)
 
-# License
+## License
 
 MIT © KTH Artificial Intelligence Society
